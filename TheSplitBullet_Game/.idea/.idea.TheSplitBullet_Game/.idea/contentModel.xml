@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\johnd\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\johnd\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_TheSplitBullet_Game.-917613452.00" t="ExcludeRecursive" />
+    <e p="C:\Users\johnd\OneDrive\Desktop\Home\Game Projects\The Split Bullet\TheSplitBullet_Game" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_Imports" t="Include">
+          <e p="Cinema Suite" t="Include">
+            <e p="About" t="Include">
+              <e p="Editor" t="Include">
+                <e p="CinemaSuiteWelcome.cs" t="Include" />
+                <e p="ProductInfo.cs" t="Include" />
+                <e p="Resources" t="Include">
+                  <e p="BaseProductInfo.xml" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Cinema Themes" t="Include">
+              <e p="Editor" t="Include">
+                <e p="CinemaThemesWindow.cs" t="Include" />
+                <e p="Resources" t="Include">
+                  <e p="CinemaThemesInstalledProductInfo.xml" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Documents" t="Include">
+              <e p="CinemaThemesChangeLog.txt" t="Include" />
+              <e p="CinemaThemesReadMe.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="AnimationStateController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="TheSplitBullet_Game.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

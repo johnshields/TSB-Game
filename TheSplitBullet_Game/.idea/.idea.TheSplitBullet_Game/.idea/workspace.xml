@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eff76ecb-efb6-463b-8a50-aa29daaf894b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Gold.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Gold.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Grey.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Grey.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Navy.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Navy.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Peach.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/Peach.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Create/Materials/Player/White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Camera etc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Camera etc/New Lighting Settings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Camera etc/New Lighting Settings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Main_Profiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Main_Profiles/Noir Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Main_Profiles/Noir Profile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/CinemaSuiteWelcome.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/CinemaSuiteWelcome.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/ProductInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/ProductInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/BaseProductInfo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/BaseProductInfo.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/CMFLogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/CMFLogo.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/CinemaSuite_WelcomeSkin.guiskin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/CinemaSuite_WelcomeSkin.guiskin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/CinemaSuite_WelcomeSkin_Light.guiskin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/CinemaSuite_WelcomeSkin_Light.guiskin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Content_BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Content_BG.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Content_Light_BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Content_Light_BG.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Docs_Personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Docs_Personal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Docs_Pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Docs_Pro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Facebook_Personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Facebook_Personal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Facebook_Pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Facebook_Pro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Forums_Personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Forums_Personal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Forums_Pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Forums_Pro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Header_BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Header_BG.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Header_Light_BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Header_Light_BG.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Logo_Personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Logo_Personal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Logo_Pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Logo_Pro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Store_Personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Store_Personal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Store_Pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Store_Pro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Tips_Personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Tips_Personal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Tips_Pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Tips_Pro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Twitter_Personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Twitter_Personal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Twitter_Pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Twitter_Pro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Video_Personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Video_Personal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Video_Pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Video_Pro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Web_Personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Web_Personal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Web_Pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Web_Pro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Youtube_Personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Youtube_Personal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Youtube_Pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/Cinema_Suite_Youtube_Pro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/DirectorKeyImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/DirectorKeyImage.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/FaceCapKeyImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/FaceCapKeyImage.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/MocapKeyImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/MocapKeyImage.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/ProCamsKeyImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/ProCamsKeyImage.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/ThemesGetItFree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/ThemesGetItFree.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/ThemesKeyImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/About/Editor/Resources/ThemesKeyImage.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/Editor/CinemaThemesWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/Editor/CinemaThemesWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/Editor/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/Editor/Resources/CinemaThemesInstalledProductInfo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/Editor/Resources/CinemaThemesInstalledProductInfo.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/19603D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/19603D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Action3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Action3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/AlienInvasion3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/AlienInvasion3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/AlienWorld3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/AlienWorld3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Arctic3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Arctic3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/BadFilm3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/BadFilm3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Beach3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Beach3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Bit1Channel3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Bit1Channel3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Bit3Channels3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Bit3Channels3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/BleachBypass3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/BleachBypass3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/BrokenDigital3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/BrokenDigital3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/CrossProcess3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/CrossProcess3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Cyberpunk3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Cyberpunk3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Dark3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Dark3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/DayForNight3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/DayForNight3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/DineInHell3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/DineInHell3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Documentary3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Documentary3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Dreadful3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Dreadful3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Dream3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Dream3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Endgame3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Endgame3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/FinalBattle3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/FinalBattle3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Fincher3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Fincher3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Fire3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Fire3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Flashback3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Flashback3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Hackers3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Hackers3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/HarshSun3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/HarshSun3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Hayloft3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Hayloft3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/HeatSignature3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/HeatSignature3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Hipster3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Hipster3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Hitchcock3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Hitchcock3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Hollywood3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Hollywood3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Horror3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Horror3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/HotSun3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/HotSun3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Icefall3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Icefall3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Intensity3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Intensity3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Matrix3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Matrix3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Millennium3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Millennium3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Minimalist3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Minimalist3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/ModernRetro3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/ModernRetro3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/MusicVideo3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/MusicVideo3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Nature3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Nature3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Negative3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Negative3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/NeonWorld3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/NeonWorld3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Noire3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Noire3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/NotEnoughBits3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/NotEnoughBits3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/OldCountry3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/OldCountry3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/OrangeTeal3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/OrangeTeal3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Pike3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Pike3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Posterize3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Posterize3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Punchy3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Punchy3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/PurpleHaze3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/PurpleHaze3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Rads3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Rads3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Rainbow3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Rainbow3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/RedAndBlue3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/RedAndBlue3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/RedRoom3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/RedRoom3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/RobotVision3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/RobotVision3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Romantic3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Romantic3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Saw3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Saw3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/SciFi3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/SciFi3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Sepia3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Sepia3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/SinCity3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/SinCity3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Slumber3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Slumber3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/TexMex3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/TexMex3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Toxic3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Toxic3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/TritonePurple3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/TritonePurple3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Underwater3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Underwater3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Vault1013D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Vault1013D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Vintage3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Vintage3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/War3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/War3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Warm3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Warm3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Weathered3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Weathered3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Winterfell3D16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Cinema Themes/LUTs/Winterfell3D16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Documents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Documents/CinemaThemesChangeLog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Documents/CinemaThemesChangeLog.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Documents/CinemaThemesDocumentation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Documents/CinemaThemesDocumentation.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Documents/CinemaThemesReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Cinema Suite/Documents/CinemaThemesReadMe.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Mixamo/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Mixamo/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Mixamo/Run.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Mixamo/Run.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Mixamo/Walk.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Imports/Mixamo/Walk.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovementStateController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AnimationStateController.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1likBsctX9TOMtqIvnqym04mIkP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eff76ecb-efb6-463b-8a50-aa29daaf894b" name="Default Changelist" comment="" />
+      <created>1608087177865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608087177865</updated>
+      <workItem from="1608087182963" duration="1292000" />
+      <workItem from="1608117888678" duration="3694000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
