@@ -62,4 +62,4 @@ crashlytics-build.properties
 .idea/
 
 # Mixamo Assets
-/TheSplitBullet_Game/Assets/_Imports/Mixamo/
+/Assets/_Imports/Mixamo/
