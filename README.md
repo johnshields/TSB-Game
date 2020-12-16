@@ -1,2 +1,2 @@
-# The-Split-Bullet
+# The Split Bullet
 Noir game made in Unity...
