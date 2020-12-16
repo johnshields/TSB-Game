@@ -33,7 +33,12 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="AnimationStateController.cs" t="Include" />
+          <e p="Cameras etc" t="Include">
+            <e p="MainCamera.cs" t="Include" />
+          </e>
+          <e p="Ryder" t="Include">
+            <e p="RyderController.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
