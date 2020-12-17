@@ -626,9 +626,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bbc03a9fe9a1034cad83288b0ff862e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 6
   lowProfile: 1
   highProfile: 3
+  turnSpeed: 6
   jumpLevel: 0
 --- !u!1 &625455674
 GameObject:

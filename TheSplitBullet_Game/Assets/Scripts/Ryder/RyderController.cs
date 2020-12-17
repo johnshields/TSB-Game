@@ -4,78 +4,78 @@
  * John Shields
  */
 
-using System;
 using UnityEngine;
 
 namespace Ryder
 {
     public class RyderController : MonoBehaviour
     {
-        // Ryder stats
-        private float _actionSpeed = 1;
-        [SerializeField] public float rotateSpeed = 1.0f;
+        private const float RyderBase = 0.5f;
         [SerializeField] public float lowProfile = 1.5f;
         [SerializeField] public float highProfile = 4.0f;
+        [SerializeField] public float turnSpeed = 1.0f;
+
         [SerializeField] public float jumpLevel = 5.0f;
-        private const float RyderBase = 0.5f;
+
+        // Ryder stats
+        private float _actionSpeed = 1;
 
         // Ryder animations
         private Animator _animator;
-        
-        // waling 
-        private int _isWalkingHash;
-        private int _isBackWalking;
-        private int _isWalkingLeft;
-        private int _isWalkingRight;
-        
-        // running
-        private int _isRunningHash;
-        private int _isBackRunning;
-        private int _isRunningLeft;
-        private int _isRunningRight;
-        
-        // other
-        private int _isInspecting;
-        
-        // Ryder rotate
+
+        // turn
         private Rigidbody _bodyPhysics;
         private Vector3 _direction;
-        
+        private int _isBackRunning;
+        private int _isBackWalking;
+
+        // other
+        private int _isInspecting;
+
+        // running
+        private int _isRunningHash;
+        private int _isRunningLeft;
+        private int _isRunningRight;
+
+        // walking 
+        private int _isWalkingHash;
+        private int _isWalkingLeft;
+        private int _isWalkingRight;
+
         // Start is called before the first frame update
         private void Start()
         {
             _animator = GetComponent<Animator>();
-            
+
             // walking
             _isWalkingHash = Animator.StringToHash("isWalking");
             _isBackWalking = Animator.StringToHash("isBackWalking");
             _isWalkingLeft = Animator.StringToHash("isWalkingLeft");
             _isWalkingRight = Animator.StringToHash("isWalkingRight");
-            
+
             // running
             _isRunningHash = Animator.StringToHash("isRunning");
             _isBackRunning = Animator.StringToHash("isBackRunning");
             _isRunningLeft = Animator.StringToHash("isRunningLeft");
             _isRunningRight = Animator.StringToHash("isRunningRight");
-            
+
             // other
             _isInspecting = Animator.StringToHash("isInspecting");
 
             _bodyPhysics = GetComponent<Rigidbody>();
         }
 
-
-        // Update is called once per frame
+        // Fixed Update is called every physics step
         private void FixedUpdate()
         {
             Walk();
             WalkLeft();
             WalkRight();
-            
+
             Run();
             RunLeft();
             RunRight();
-            
+
             Inspect();
             Jump();
         }
@@ -84,8 +84,8 @@ namespace Ryder
         {
             var horizontalMove = Input.GetAxisRaw("Horizontal") * _actionSpeed / 2;
             var verticalMove = Input.GetAxisRaw("Vertical") * _actionSpeed;
-            _bodyPhysics.velocity = _direction = 
-                (new Vector3(horizontalMove, 0, verticalMove) * Time.deltaTime);
+            _bodyPhysics.velocity = _direction =
+                new Vector3(horizontalMove, 0, verticalMove) * Time.deltaTime;
 
             var forwardPressed = Input.GetKey("w");
             var backPressed = Input.GetKey("s");
@@ -116,12 +116,12 @@ namespace Ryder
             Turn();
             _animator.SetBool(_isBackWalking, false);
         }
-        
+
         private void WalkLeft()
         {
             var leftPressed = Input.GetKey("a");
             var isLeftWalking = _animator.GetBool(_isWalkingLeft);
-            
+
             if (leftPressed)
             {
                 _actionSpeed = _actionSpeed * lowProfile;
@@ -132,12 +132,12 @@ namespace Ryder
             _actionSpeed = 1f;
             _animator.SetBool(_isWalkingLeft, false);
         }
-        
+
         private void WalkRight()
         {
             var rightPressed = Input.GetKey("d");
             var isLeftWalking = _animator.GetBool(_isWalkingRight);
-            
+
             if (rightPressed)
             {
                 _actionSpeed = _actionSpeed * lowProfile;
@@ -163,7 +163,7 @@ namespace Ryder
             var backRunPressed = Input.GetKey("left shift");
 
             // Walk to Run
-            if (!runActive && (forwardPressed && runPressed))
+            if (!runActive && forwardPressed && runPressed)
             {
                 Turn();
                 _actionSpeed *= highProfile;
@@ -175,68 +175,64 @@ namespace Ryder
                 _actionSpeed = 1f;
                 _animator.SetBool(_isRunningHash, false);
             }
-            
+
             // Run Backwards
-            else if (!backRunActive && (backPressed && backRunPressed))
+            else if (!backRunActive && backPressed && backRunPressed)
             {
                 _animator.SetBool(_isBackRunning, true);
             }
 
-            if (!backRunActive || (backPressed && backRunPressed)) return;
+            if (!backRunActive || backPressed && backRunPressed) return;
             Turn();
             _animator.SetBool(_isBackRunning, false);
         }
 
         private void RunLeft()
         {
-            
             var leftRunActive = _animator.GetBool(_isRunningLeft);
             var leftPressed = Input.GetKey("a");
             var leftRunPressed = Input.GetKey("left shift");
-            
+
             // Left Walk to Left Run
-            if (!leftRunActive && (leftPressed && leftRunPressed))
+            if (!leftRunActive && leftPressed && leftRunPressed)
             {
                 _actionSpeed = _actionSpeed * highProfile;
                 _animator.SetBool(_isRunningLeft, true);
             }
 
-            if (leftRunActive && (!leftPressed || !leftRunPressed))
-            {
-                _actionSpeed = 1f;
-                _animator.SetBool(_isRunningLeft, false);
-            }
+            if (!leftRunActive || (leftPressed && leftRunPressed)) return;
+            _actionSpeed = 1f;
+            _animator.SetBool(_isRunningLeft, false);
         }
-        
+
         private void RunRight()
         {
-            
             var rightRunActive = _animator.GetBool(_isRunningRight);
             var rightPressed = Input.GetKey("d");
             var rightRunPressed = Input.GetKey("left shift");
-            
-            // Left Walk to Left Run
-            if (!rightRunActive && (rightPressed && rightRunPressed))
+
+            // Right Walk to Right Run
+            if (!rightRunActive && rightPressed && rightRunPressed)
             {
                 _actionSpeed = _actionSpeed * highProfile;
                 _animator.SetBool(_isRunningRight, true);
             }
 
-            if (rightRunActive && (!rightPressed || !rightRunPressed))
-            {
-                _actionSpeed = 1f;
-                _animator.SetBool(_isRunningRight, false);
-            }
+            if (!rightRunActive || (rightPressed && rightRunPressed)) return;
+            _actionSpeed = 1f;
+            _animator.SetBool(_isRunningRight, false);
         }
 
         private void Turn()
         {
             // rotate direction
-            if (_direction !=Vector3.zero)
+            if (_direction != Vector3.zero)
             {
+                _actionSpeed = _actionSpeed * lowProfile;
                 transform.rotation = Quaternion.Slerp
-                    (transform.rotation, Quaternion.LookRotation(_direction), rotateSpeed * Time.deltaTime);
+                    (transform.rotation, Quaternion.LookRotation(_direction), turnSpeed * Time.deltaTime);
             }
+
             _bodyPhysics.MovePosition(transform.position + _actionSpeed * Time.deltaTime * _direction);
         }
 
@@ -247,26 +243,18 @@ namespace Ryder
             var isInspecting = _animator.GetBool(_isInspecting);
 
             // Idle to inspect
-            if (inspectPressed && idleInspect)
-            {
-                _animator.SetBool(_isInspecting, true);
-            }
+            if (inspectPressed && idleInspect) _animator.SetBool(_isInspecting, true);
 
-            if (isInspecting && (!inspectPressed && !idleInspect))
-            {
-                _animator.SetBool(_isInspecting, false);
-            }
+            if (isInspecting && !inspectPressed && !idleInspect) _animator.SetBool(_isInspecting, false);
         }
+
         private void Jump()
         {
             var jump = Input.GetKey("space");
 
             if (!jump) return;
             // player does not jump if is not touching the ground layer
-            if (transform.position.y <=RyderBase) {
-                _bodyPhysics.AddForce(Vector3.up * jumpLevel); // jump height
-            }
+            if (transform.position.y <= RyderBase) _bodyPhysics.AddForce(Vector3.up * jumpLevel); // jump height
         }
-        
     }
 }
