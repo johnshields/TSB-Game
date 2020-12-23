@@ -4,11 +4,14 @@ using UnityEngine;
 namespace Ryder
 {
     public class RyderController : MonoBehaviour
-    {
+    { 
+        // Ryder Stats
         private float _currentProfile;
-        public float lowProfile = 0.02f;
-        public float highProfile = 0.06f;
-        public float rotationSpeed = 4.0f;
+        private const float RyderBase = 0.01f;
+        [SerializeField]public float lowProfile = 0.02f;
+        [SerializeField]public float highProfile = 0.06f;
+        [SerializeField] public float rotationSpeed = 4.0f;
+        [SerializeField] public float jumpLevel = 5.0f;
 
         private Rigidbody _bodyPhysics;
         private Animator _animator;
@@ -19,26 +22,33 @@ namespace Ryder
         private float _yaw;
         private float _pitch;
 
-        // animation triggers
-        private int _idleActive;
+        // animation bools
+        private int _idleActiveHash;
         private int _walkActiveHash;
         private int _runActiveHash;
-
-
+        private int _backRunActiveHash;
+        private int _inspectActiveHash;
+        private int _jumpActiveHash;
+        
         private void Start()
         {
             _bodyPhysics = GetComponent<Rigidbody>();
             _animator = GetComponent<Animator>();
             _capsuleCollider = GetComponent<CapsuleCollider>();
 
-            _idleActive = Animator.StringToHash("IdleActive");
+            _idleActiveHash = Animator.StringToHash("IdleActive");
             _walkActiveHash = Animator.StringToHash("WalkActive");
             _runActiveHash = Animator.StringToHash("RunActive");
+            _backRunActiveHash = Animator.StringToHash("BackRunActive");
+            _inspectActiveHash = Animator.StringToHash("InspectActive");
+            _jumpActiveHash = Animator.StringToHash("JumpActive");
         }
 
         private void FixedUpdate()
         {
             RyderMovement();
+            MoveBack();
+            Inspect();
             CameraMovement();
         }
 
@@ -59,16 +69,24 @@ namespace Ryder
                 if (forwardPressed)
                 {
                     // Run
+                    _animator.SetBool(_jumpActiveHash, false);
+                    _animator.SetBool(_inspectActiveHash, false);
+                    _animator.SetBool(_backRunActiveHash, false);
                     _animator.SetBool(_walkActiveHash, false);
                     _animator.SetBool(_runActiveHash, true);
-                    _animator.SetBool(_idleActive, false);
+                    _animator.SetBool(_idleActiveHash, false);
+                    
+                    Jump();
                 }
                 else
                 {
                     // Idle
+                    _animator.SetBool(_jumpActiveHash, false);
+                    _animator.SetBool(_inspectActiveHash, false);
+                    _animator.SetBool(_backRunActiveHash, false);
                     _animator.SetBool(_walkActiveHash, false);
                     _animator.SetBool(_runActiveHash, false);
-                    _animator.SetBool(_idleActive, true);
+                    _animator.SetBool(_idleActiveHash, true);
                 }
 
                 _currentProfile = highProfile;
@@ -78,20 +96,112 @@ namespace Ryder
                 if (forwardPressed)
                 {
                     // Walk
+                    _animator.SetBool(_jumpActiveHash, false);
+                    _animator.SetBool(_inspectActiveHash, false);
+                    _animator.SetBool(_backRunActiveHash, false);
                     _animator.SetBool(_walkActiveHash, true);
                     _animator.SetBool(_runActiveHash, false);
-                    _animator.SetBool(_idleActive, false);
+                    _animator.SetBool(_idleActiveHash, false);
                 }
                 else
                 {
                     // Idle
+                    _animator.SetBool(_jumpActiveHash, false);
+                    _animator.SetBool(_inspectActiveHash, false);
+                    _animator.SetBool(_backRunActiveHash, false);
                     _animator.SetBool(_walkActiveHash, false);
                     _animator.SetBool(_runActiveHash, false);
-                    _animator.SetBool(_idleActive, true);
+                    _animator.SetBool(_idleActiveHash, true);
                 }
-
                 _currentProfile = lowProfile;
             }
+        }
+        
+        private void MoveBack()
+        {
+            // Player Input
+            var backPressed = Input.GetKey("s");
+            // Animator bool
+            var backRunActive = _animator.GetBool(_backRunActiveHash);
+            
+            if (backPressed)
+            {
+                // Move Back
+                _animator.SetBool(_jumpActiveHash, false);
+                _animator.SetBool(_inspectActiveHash, false);
+                _animator.SetBool(_walkActiveHash, false);
+                _animator.SetBool(_runActiveHash, false);
+                _animator.SetBool(_idleActiveHash, false);
+                _animator.SetBool(_backRunActiveHash, true);
+            }
+
+            if (!backRunActive || backPressed) return;
+            // Idle
+            _animator.SetBool(_jumpActiveHash, false);
+            _animator.SetBool(_inspectActiveHash, false);
+            _animator.SetBool(_walkActiveHash, false);
+            _animator.SetBool(_runActiveHash, false);
+            _animator.SetBool(_idleActiveHash, true);
+            _animator.SetBool(_backRunActiveHash, false);
+        }
+        
+        private void Jump()
+        {
+            // Player Input
+            var jumpPressed = Input.GetKey("space");
+            // Animator bool
+            var jumpActive = _animator.GetBool(_jumpActiveHash);
+            
+            if (jumpPressed)
+            {
+                // Jump
+                _animator.SetBool(_jumpActiveHash, true);
+                _animator.SetBool(_inspectActiveHash, false);
+                _animator.SetBool(_walkActiveHash, false);
+                _animator.SetBool(_runActiveHash, false);
+                _animator.SetBool(_idleActiveHash, false);
+                _animator.SetBool(_backRunActiveHash, false);
+                
+                if (transform.position.y <= RyderBase) _bodyPhysics.AddForce(Vector3.up * jumpLevel);
+            }
+
+            if (!jumpActive || jumpPressed) return;
+            // Idle
+            _animator.SetBool(_jumpActiveHash, false);
+            _animator.SetBool(_inspectActiveHash, false);
+            _animator.SetBool(_walkActiveHash, false);
+            _animator.SetBool(_runActiveHash, false);
+            _animator.SetBool(_idleActiveHash, true);
+            _animator.SetBool(_backRunActiveHash, false);
+        }
+        
+        private void Inspect()
+        {
+            // Player Input
+            var inspectPressed = Input.GetKey("i");
+            // Animator bool
+            var inspectActive = _animator.GetBool(_inspectActiveHash);
+
+            switch (inspectPressed)
+            {
+                // Inspect
+                case true:
+                    _animator.SetBool(_jumpActiveHash, false);
+                    _animator.SetBool(_walkActiveHash, false);
+                    _animator.SetBool(_runActiveHash, false);
+                    _animator.SetBool(_idleActiveHash, false);
+                    _animator.SetBool(_inspectActiveHash, true);
+                    _currentProfile = 0;
+                    break;
+            }
+
+            // Idle
+            if (!inspectActive || inspectPressed) return;
+            _animator.SetBool(_jumpActiveHash, false);
+            _animator.SetBool(_walkActiveHash, false);
+            _animator.SetBool(_runActiveHash, false);
+            _animator.SetBool(_idleActiveHash, false);
+            _animator.SetBool(_inspectActiveHash, false);
         }
 
         private void CameraMovement()
