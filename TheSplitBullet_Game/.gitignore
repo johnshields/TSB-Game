@@ -61,5 +61,5 @@ crashlytics-build.properties
 # JetBrains Rider
 .idea/
 
-# Mixamo Assets
-/Assets/_Imports/Mixamo/
+# Assets too big for git
+/Assets/_Imports/Big Imports/

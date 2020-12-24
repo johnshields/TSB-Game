@@ -250,7 +250,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e388774e3a0851148b573ddaa718523b, type: 2}
+  - {fileID: 2100000, guid: 4ab196ba7a74b544ab8fdf637410c77c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -451,7 +451,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e388774e3a0851148b573ddaa718523b, type: 2}
+  - {fileID: 2100000, guid: 4ab196ba7a74b544ab8fdf637410c77c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -581,7 +581,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e388774e3a0851148b573ddaa718523b, type: 2}
+  - {fileID: 2100000, guid: 4ab196ba7a74b544ab8fdf637410c77c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -676,7 +676,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e388774e3a0851148b573ddaa718523b, type: 2}
+  - {fileID: 2100000, guid: 4ab196ba7a74b544ab8fdf637410c77c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1077,6 +1077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8941705497066535372}
   - component: {fileID: 2639232983438484909}
+  - component: {fileID: 2639232983438484912}
   - component: {fileID: 2639232983438484910}
   - component: {fileID: 2639232983438484911}
   - component: {fileID: 4463757397403248630}
@@ -1132,6 +1133,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2639232983438484912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2639232983438484908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfdbaa25207cde945b5bf54b39316903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameAudio:
+  - trackClip: {fileID: 8300000, guid: 17c6dfa99cd57fe48b6d379d17745aee, type: 3}
+    trackName: engine
+    loop: 1
+    volume: 1
+    pitch: 1
+    trackSource: {fileID: 0}
 --- !u!4 &2845847356244780238
 Transform:
   m_ObjectHideFlags: 0

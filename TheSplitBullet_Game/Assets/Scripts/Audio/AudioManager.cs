@@ -25,6 +25,7 @@ namespace Audio
         private void Start()
         {
             PlayAudio("gold");
+            PlayAudio("engine");
         }
         
         private void PlayAudio (string name)
