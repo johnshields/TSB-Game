@@ -8,8 +8,8 @@ namespace Ryder
         // Ryder Stats
         private float _currentProfile;
         private const float RyderBase = 0.01f;
-        [SerializeField]public float lowProfile = 0.02f;
-        [SerializeField]public float highProfile = 0.06f;
+        [SerializeField] public float lowProfile = 0.02f;
+        [SerializeField] public float highProfile = 0.06f;
         [SerializeField] public float rotationSpeed = 4.0f;
         [SerializeField] public float jumpLevel = 5.0f;
 
