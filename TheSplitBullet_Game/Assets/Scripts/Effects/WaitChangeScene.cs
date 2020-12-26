@@ -2,23 +2,24 @@
 using System.Collections.Generic;
 using Effects;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-namespace Change_Scene
+namespace Effects
 {
     public class WaitChangeScene : MonoBehaviour
     {
-        public static float waitTime;
+        public float waitTime;
         // Start is called before the first frame update
         public void Start()
         {
             StartCoroutine(WaitCut());
         }
 
-        private static IEnumerator WaitCut()
+        private IEnumerator WaitCut()
         {
-            FadeMusic.FadeOutMusic();
-            SceneChanger.FadeToScene();
             yield return new WaitForSeconds(waitTime);
+            SceneChanger.FadeToScene();
+            yield return new WaitForSeconds(1);
             SceneChanger.NextScene();
         }
     }

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Effects 
+namespace Effects
 {
     public class SceneChanger : MonoBehaviour
     {

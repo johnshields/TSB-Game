@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Effects
 {
@@ -12,7 +10,7 @@ namespace Effects
         private static int _fadeOutHash;
 
         // Start is called before the first frame update
-        void Start()
+        private void Start()
         {
             _fadeOutHash = Animator.StringToHash("FadeOut");
             _animator = GetComponent<Animator>();
