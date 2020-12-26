@@ -2,17 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FadeMusic : MonoBehaviour
+namespace Effects
 {
-    // Start is called before the first frame update
-    void Start()
+    public class FadeMusic : MonoBehaviour
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
+        private static Animator _animator;
+
+        private static int _fadeOutHash;
+
+        // Start is called before the first frame update
+        void Start()
+        {
+            _fadeOutHash = Animator.StringToHash("FadeOut");
+            _animator = GetComponent<Animator>();
+        }
         
+        public static void FadeOutMusic()
+        {
+            _animator.SetTrigger(_fadeOutHash);
+        }
     }
 }
