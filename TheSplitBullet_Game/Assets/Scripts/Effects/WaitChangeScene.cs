@@ -9,6 +9,7 @@ namespace Effects
     public class WaitChangeScene : MonoBehaviour
     {
         public float waitTime;
+        
         // Start is called before the first frame update
         public void Start()
         {
@@ -18,6 +19,7 @@ namespace Effects
         private IEnumerator WaitCut()
         {
             yield return new WaitForSeconds(waitTime);
+            FadeMusic.FadeOutMusic();
             SceneChanger.FadeToScene();
             yield return new WaitForSeconds(1);
             SceneChanger.NextScene();

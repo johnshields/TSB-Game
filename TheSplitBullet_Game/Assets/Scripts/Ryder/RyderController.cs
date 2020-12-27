@@ -28,8 +28,7 @@ namespace Ryder
         private int _runActiveHash;
         private int _backRunActiveHash;
         private int _inspectActiveHash;
-        private int _jumpActiveHash;
-        
+
         private void Start()
         {
             _bodyPhysics = GetComponent<Rigidbody>();
@@ -41,7 +40,6 @@ namespace Ryder
             _runActiveHash = Animator.StringToHash("RunActive");
             _backRunActiveHash = Animator.StringToHash("BackRunActive");
             _inspectActiveHash = Animator.StringToHash("InspectActive");
-            _jumpActiveHash = Animator.StringToHash("JumpActive");
         }
 
         private void FixedUpdate()
@@ -69,19 +67,15 @@ namespace Ryder
                 if (forwardPressed)
                 {
                     // Run
-                    _animator.SetBool(_jumpActiveHash, false);
                     _animator.SetBool(_inspectActiveHash, false);
                     _animator.SetBool(_backRunActiveHash, false);
                     _animator.SetBool(_walkActiveHash, false);
                     _animator.SetBool(_runActiveHash, true);
                     _animator.SetBool(_idleActiveHash, false);
-                    
-                    Jump();
                 }
                 else
                 {
                     // Idle
-                    _animator.SetBool(_jumpActiveHash, false);
                     _animator.SetBool(_inspectActiveHash, false);
                     _animator.SetBool(_backRunActiveHash, false);
                     _animator.SetBool(_walkActiveHash, false);
@@ -96,7 +90,6 @@ namespace Ryder
                 if (forwardPressed)
                 {
                     // Walk
-                    _animator.SetBool(_jumpActiveHash, false);
                     _animator.SetBool(_inspectActiveHash, false);
                     _animator.SetBool(_backRunActiveHash, false);
                     _animator.SetBool(_walkActiveHash, true);
@@ -106,7 +99,6 @@ namespace Ryder
                 else
                 {
                     // Idle
-                    _animator.SetBool(_jumpActiveHash, false);
                     _animator.SetBool(_inspectActiveHash, false);
                     _animator.SetBool(_backRunActiveHash, false);
                     _animator.SetBool(_walkActiveHash, false);
@@ -127,7 +119,6 @@ namespace Ryder
             if (backPressed)
             {
                 // Move Back
-                _animator.SetBool(_jumpActiveHash, false);
                 _animator.SetBool(_inspectActiveHash, false);
                 _animator.SetBool(_walkActiveHash, false);
                 _animator.SetBool(_runActiveHash, false);
@@ -137,44 +128,13 @@ namespace Ryder
 
             if (!backRunActive || backPressed) return;
             // Idle
-            _animator.SetBool(_jumpActiveHash, false);
             _animator.SetBool(_inspectActiveHash, false);
             _animator.SetBool(_walkActiveHash, false);
             _animator.SetBool(_runActiveHash, false);
             _animator.SetBool(_idleActiveHash, true);
             _animator.SetBool(_backRunActiveHash, false);
         }
-        
-        private void Jump()
-        {
-            // Player Input
-            var jumpPressed = Input.GetKey("space");
-            // Animator bool
-            var jumpActive = _animator.GetBool(_jumpActiveHash);
-            
-            if (jumpPressed)
-            {
-                // Jump
-                _animator.SetBool(_jumpActiveHash, true);
-                _animator.SetBool(_inspectActiveHash, false);
-                _animator.SetBool(_walkActiveHash, false);
-                _animator.SetBool(_runActiveHash, false);
-                _animator.SetBool(_idleActiveHash, false);
-                _animator.SetBool(_backRunActiveHash, false);
-                
-                if (transform.position.y <= RyderBase) _bodyPhysics.AddForce(Vector3.up * jumpLevel);
-            }
 
-            if (!jumpActive || jumpPressed) return;
-            // Idle
-            _animator.SetBool(_jumpActiveHash, false);
-            _animator.SetBool(_inspectActiveHash, false);
-            _animator.SetBool(_walkActiveHash, false);
-            _animator.SetBool(_runActiveHash, false);
-            _animator.SetBool(_idleActiveHash, true);
-            _animator.SetBool(_backRunActiveHash, false);
-        }
-        
         private void Inspect()
         {
             // Player Input
@@ -186,7 +146,6 @@ namespace Ryder
             {
                 // Inspect
                 case true:
-                    _animator.SetBool(_jumpActiveHash, false);
                     _animator.SetBool(_walkActiveHash, false);
                     _animator.SetBool(_runActiveHash, false);
                     _animator.SetBool(_idleActiveHash, false);
@@ -197,7 +156,6 @@ namespace Ryder
 
             // Idle
             if (!inspectActive || inspectPressed) return;
-            _animator.SetBool(_jumpActiveHash, false);
             _animator.SetBool(_walkActiveHash, false);
             _animator.SetBool(_runActiveHash, false);
             _animator.SetBool(_idleActiveHash, false);
