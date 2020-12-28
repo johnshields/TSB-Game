@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Effects;
 using UnityEngine;
 
@@ -6,6 +7,11 @@ namespace Menus
 {
     public class MainMenu : MonoBehaviour
     {
+        private void Awake()
+        {
+            AudioListener.volume = 1f;        
+        }
+
         public void StartGame()
         {
             // Start the game

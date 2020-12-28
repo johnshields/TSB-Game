@@ -546,7 +546,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7e4d71872b1a8394fbff97d2dfb4203a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2fa993132f5567542ad049c5efe74561, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
@@ -1854,7 +1854,7 @@ MonoBehaviour:
   camOne: {fileID: 1648792347802146897}
   camTwo: {fileID: 250557561}
   camThree: {fileID: 116326848}
-  cameraSwitchTime: 14.5
+  cameraSwitchTime: 16.6
 --- !u!81 &156968246
 AudioListener:
   m_ObjectHideFlags: 0

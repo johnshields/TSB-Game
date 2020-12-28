@@ -55,7 +55,6 @@ namespace Menus
             // to the main menu
             StartCoroutine(FadeOutMainMenu());           
             Time.timeScale = 1f;
-            AudioListener.volume = 1f;
             Debug.Log("Load Main Menu");
         }
         
