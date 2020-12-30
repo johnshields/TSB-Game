@@ -23,4 +23,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapters/Chapter One/PartFour.unity
     guid: c5e2268d0f7c91c40ab774fb5e914afc
+  - enabled: 1
+    path: Assets/Scenes/Chapters/Chapter One/PartFive.unity
+    guid: 3606575d20dd6a146a7bdd4b2aff61c7
+  - enabled: 1
+    path: Assets/Scenes/Chapters/Chapter One/FinalPart.unity
+    guid: dc33064516deaf244a8c932fdfdf7121
+  - enabled: 1
+    path: Assets/Scenes/Chapters/Chapter Screens/ChapterTwo.unity
+    guid: 0020437f772e6064c92c4a99df50d312
+  - enabled: 1
+    path: Assets/Scenes/Chapters/Chapter Two/PartOne.unity
+    guid: 069a122bcde38e54a98a9f2162817190
   m_configObjects: {}
