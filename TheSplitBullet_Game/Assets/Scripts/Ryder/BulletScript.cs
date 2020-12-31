@@ -5,7 +5,8 @@ using UnityEngine;
 namespace Ryder
 {
     public class BulletScript : MonoBehaviour
-    {   public float cutTime;
+    {   
+        public float cutTime;
         private void OnTriggerEnter(Collider other)
         {
             StartCoroutine(BulletChangeScene());
