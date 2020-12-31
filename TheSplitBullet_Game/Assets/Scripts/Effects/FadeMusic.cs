@@ -4,9 +4,7 @@ namespace Effects
 {
     public class FadeMusic : MonoBehaviour
     {
-
         private static Animator _animator;
-
         private static int _fadeOutHash;
 
         // Start is called before the first frame update

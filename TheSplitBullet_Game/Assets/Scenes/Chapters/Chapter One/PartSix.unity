@@ -13220,7 +13220,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 76a46f2a064f2fe48b44bb7ba4fb46f9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 77d724a5c0997a24fb76d326bd683548, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -34824,12 +34824,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074277982}
-  m_LocalRotation: {x: 0.042649467, y: -0, z: -0, w: 0.99909014}
-  m_LocalPosition: {x: 510.28, y: 2.46, z: 1093.35}
+  m_LocalRotation: {x: 0.042649444, y: -0, z: -0, w: 0.99909014}
+  m_LocalPosition: {x: 1.25, y: 1.83, z: -9.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 4127523708521642}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 4.889, y: 0, z: 0}
 --- !u!1 &2079746836
 GameObject:
@@ -36597,6 +36597,7 @@ Transform:
   m_LocalPosition: {x: 509.48, y: 0.28, z: 1101.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 2074277986}
   - {fileID: 4503281328711722}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -36645,7 +36646,7 @@ Transform:
   - {fileID: 4949194268802926}
   - {fileID: 4870873084796104}
   m_Father: {fileID: 4127523708521642}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4870873084796104
 Transform:
@@ -51301,7 +51302,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 23
+      scalar: 10
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -74348,9 +74349,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 4
+  m_Intensity: 2
   m_Range: 50
-  m_SpotAngle: 25
+  m_SpotAngle: 20
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -79703,9 +79704,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 4
+  m_Intensity: 2
   m_Range: 50
-  m_SpotAngle: 25
+  m_SpotAngle: 20
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:

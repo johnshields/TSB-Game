@@ -14,10 +14,10 @@ namespace Effects
         // Start is called before the first frame update
         private void Start()
         {
-            StartCoroutine(switchCamera());
+            StartCoroutine(SwitchCameras());
         }
 
-        IEnumerator switchCamera()
+        private IEnumerator SwitchCameras()
         {
             yield return new WaitForSeconds(cameraSwitchTime);
             camTwo.SetActive(true);

@@ -25332,7 +25332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a91f6616b10be394b94b95f9d42467c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cutTime: 8
+  cutTime: 6
 --- !u!4 &1422149926
 Transform:
   m_ObjectHideFlags: 0
@@ -50722,7 +50722,6 @@ MonoBehaviour:
   lowProfile: 0.04
   highProfile: 0.08
   rotationSpeed: 1
-  jumpLevel: 200
   cameraTransform: {fileID: 7893658146392182333}
 --- !u!54 &4687726840895930063
 Rigidbody:

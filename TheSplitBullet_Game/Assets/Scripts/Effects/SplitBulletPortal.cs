@@ -7,7 +7,7 @@ namespace Effects
     {
         [SerializeField] public AudioClip portalSound;
         [SerializeField] public float cutTime;
-        public Camera portalCamera;
+        [SerializeField] public Camera portalCamera;
         [SerializeField] public GameObject ryder;
         private void OnTriggerEnter(Collider other)
         {

@@ -17,7 +17,7 @@ namespace Ryder
             yield return new WaitForSeconds(cutTime);
             FadeMusic.FadeOutMusic();
             SceneChanger.FadeToScene();
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(2);
             SceneChanger.NextScene();
         }
     }
