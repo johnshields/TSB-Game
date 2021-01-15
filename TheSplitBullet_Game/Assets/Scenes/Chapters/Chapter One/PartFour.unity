@@ -527,6 +527,7 @@ GameObject:
   - component: {fileID: 1638924875}
   - component: {fileID: 1638924874}
   - component: {fileID: 1638924877}
+  - component: {fileID: 1638924878}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -659,6 +660,18 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &1638924878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638924873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a8a0ae21adef549a116d7577d02d43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &26063882784669192
 GameObject:
   m_ObjectHideFlags: 0
@@ -5111,13 +5124,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4391603623140542939}
-  m_LocalRotation: {x: 0.7399422, y: 0.16636564, z: 0.19826688, w: -0.62088513}
+  m_LocalRotation: {x: 0.68894696, y: -0.18140867, z: 0.18460275, w: 0.67702645}
   m_LocalPosition: {x: -499.95575, y: 2.8487082, z: -12.3906}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6337588901104723471}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 260, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 91, y: -30, z: 0}
 --- !u!1 &4391603623140542939
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,7 +2,7 @@
 using Effects;
 using UnityEngine;
 
-namespace Ryder
+namespace Effects
 {
     public class BulletScript : MonoBehaviour
     {   

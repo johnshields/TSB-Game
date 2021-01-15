@@ -13,9 +13,9 @@ namespace Ryder
         private Rigidbody _bodyPhysics;
         private Animator _animator;
         private CapsuleCollider _capsuleCollider;
-
+       
+        // Camera 
         public Transform cameraTransform;
-
         private float _yaw;
         private float _pitch;
 
