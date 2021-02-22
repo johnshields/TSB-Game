@@ -19,7 +19,7 @@ namespace Ryder
         private float _yaw;
         private float _pitch;
 
-        // animation bools
+        // animator bools
         private int _idleActiveHash;
         private int _walkActiveHash;
         private int _runActiveHash;
